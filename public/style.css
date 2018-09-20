@@ -3,6 +3,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-size: 20px;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   max-width: 90%;
   width: 876px;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 * {
