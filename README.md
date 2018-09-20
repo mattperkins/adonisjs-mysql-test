@@ -1,5 +1,10 @@
 # Project outline
 
+# ENDPOINTS
+## /
+## /test
+## /test/:id
+
 1. Bodyparser
 2. Session
 3. Authentication

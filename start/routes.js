@@ -18,7 +18,7 @@ const Route = use('Route')
 
 Route.on('/').render('index')
 
-Route.get('/test', () => 'Hello, World!')
+Route.get('/test/:id', ({params}) => `${params.id}`)
 
 
 
