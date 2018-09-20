@@ -1,4 +1,8 @@
+#### remote mysql db not working 
+#### migration:run (users)
+
 # Project outline
+
 
 # ENDPOINTS
 ## /
