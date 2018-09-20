@@ -6,6 +6,7 @@ class UsersSchema extends Schema {
   up () {
     this.create('users', (table) => {
       table.increments()
+      table.string('name')
       table.timestamps()
     })
   }

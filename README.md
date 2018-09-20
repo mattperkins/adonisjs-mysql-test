@@ -9,7 +9,7 @@
 ## adonis make:controller Users (http)
 ## adonis make:view users/index
 ## adonis make:migration users (Create table)
-
+## adonis migration:run
 
 1. Bodyparser
 2. Session
