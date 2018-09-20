@@ -5,6 +5,9 @@
 ## /test
 ## /test/:id
 
+# Scaffolding project components
+## adonis make:controller Users (http)
+
 
 
 1. Bodyparser
