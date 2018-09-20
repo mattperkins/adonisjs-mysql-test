@@ -7,7 +7,7 @@
 
 # Scaffolding project components
 ## adonis make:controller Users (http)
-
+## adonis make:view users/index
 
 
 1. Bodyparser
