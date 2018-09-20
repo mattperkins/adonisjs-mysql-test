@@ -16,9 +16,9 @@
 /** @type {import('@adonisjs/framework/src/Route/Manager'} */
 const Route = use('Route')
 
-Route.on('/').render('index')
+Route.get('/users', 'UserController.users')
 
-Route.get('/test/:id', ({params}) => `${params.id}`)
+// Route.get('/test/:id', ({params}) => `${params.id}`)
 
 
 
