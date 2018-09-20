@@ -1,0 +1,29 @@
+{
+  "name": "mysql-test",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node ace test"
+  },
+ "author": "DORMshed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.2",
+    "@adonisjs/auth": "^3.0.5",
+    "@adonisjs/bodyparser": "^2.0.3",
+    "@adonisjs/cors": "^1.0.6",
+    "@adonisjs/fold": "^4.0.8",
+    "@adonisjs/framework": "^5.0.7",
+    "@adonisjs/ignitor": "^2.0.6",
+    "@adonisjs/lucid": "^5.0.4",
+    "@adonisjs/session": "^1.0.25",
+    "@adonisjs/shield": "^1.0.6"
+  },
+  "devDependencies": {},
+  "autoload": {
+    "App": "./app"
+  }
+}
