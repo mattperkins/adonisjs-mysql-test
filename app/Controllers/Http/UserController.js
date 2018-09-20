@@ -1,8 +1,10 @@
 'use strict'
 
 class UserController {
-  async users() {
-   return 'Users'
+  async users({ view }) {
+   return view.render('users.index', {
+    title: 'User Data'
+   })
   }
 }
 
