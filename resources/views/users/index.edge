@@ -1,7 +1,12 @@
-<h1>{{title}}</h1>
+@layout('main') 
+@section('content')
+ <h1>{{title}}</h1>
 
-<ul>
- @each(user in users)
- <li>{{ user.id }} {{ user.name }}</li>
- @endeach
-</ul>
+ <ul>
+  @each(user in users)
+  <li>{{ user.id }} {{ user.name }}</li>
+  @endeach
+ </ul>
+
+ <a href="/">Home</a>
+@endsection
